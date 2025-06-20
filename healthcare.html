@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Solutions - codeg.ai</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- AOS Library for Scroll Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation - Same as index.html -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <!-- Logo on left -->
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.svg" alt="codeg.ai logo" class="navbar-logo">
+                codeg.ai
+            </a>
+
+            <!-- Centered Menu Items -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Industries
+                        </a>
+                        <div class="dropdown-menu industries-menu">
+                            <div class="submenu-container">
+                                <div class="desktop-grid">
+                                    <!-- Column 1 -->
+                                    <div class="menu-column">
+                                        <a class="industry-card" href="#">
+                                            <h4>Healthcare</h4>
+                                            <p>Innovative solutions for healthcare providers to streamline operations and enhance patient care delivery.</p>
+                                        </a>
+                                        <a class="industry-card" href="#">
+                                            <h4>Hotels</h4>
+                                            <p>Smart automation and management systems to elevate guest experiences and optimize hotel operations.</p>
+                                        </a>
+                                    </div>
+                                    <!-- Column 2 -->
+                                    <div class="menu-column">
+                                        <a class="industry-card" href="#">
+                                            <h4>Automotive</h4>
+                                            <p>Advanced solutions for automotive businesses to enhance efficiency and customer satisfaction.</p>
+                                        </a>
+                                        <a class="industry-card" href="#">
+                                            <h4>Retail</h4>
+                                            <p>Digital transformation solutions to help retailers create seamless shopping experiences.</p>
+                                        </a>
+                                        <a class="industry-card" href="#">
+                                            <h4>Banking & Finance</h4>
+                                            <p>Secure and efficient solutions for modern banking and financial services.</p>
+                                        </a>
+                                    </div>
+                                    <!-- Column 3 -->
+                                    <div class="menu-column">
+                                        <a class="industry-card" href="#">
+                                            <h4>Education</h4>
+                                            <p>Digital learning platforms and management systems for educational institutions.</p>
+                                        </a>
+                                        <a class="industry-card" href="#">
+                                            <h4>Travel</h4>
+                                            <p>Innovative solutions to enhance travel experiences and streamline operations.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Solutions</a>
+                        <div class="dropdown-menu">
+                            <div class="container">
+                                <div class="row g-0">
+                                    <!-- Voice Call Column -->
+                                    <div class="col-md-4">
+                                        <div class="solutions-section">
+                                            <h3>Voice Call</h3>
+                                            <div class="dropdown-items-wrapper">
+                                                <a class="dropdown-item two-lines" href="#">Appointment Management</a>
+                                                <a class="dropdown-item" href="#">Call Routing</a>
+                                                <a class="dropdown-item" href="#">Outbound Calls</a>
+                                                <a class="dropdown-item" href="#">Reminder</a>
+                                                <a class="dropdown-item" href="#">Billing & Payment</a>
+                                                <a class="dropdown-item" href="#">User queries</a>
+                                                <a class="dropdown-item" href="#">Text to Speech</a>
+                                                <a class="dropdown-item" href="#">Speech to Text</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Text Interaction Column -->
+                                    <div class="col-md-4">
+                                        <div class="solutions-section">
+                                            <h3>Text Interaction</h3>
+                                            <div class="dropdown-items-wrapper">
+                                                <a class="dropdown-item two-lines" href="#">Appointment Management</a>
+                                                <a class="dropdown-item" href="#">Call Routing</a>
+                                                <a class="dropdown-item" href="#">Reminder</a>
+                                                <a class="dropdown-item" href="#">Billing & Payment</a>
+                                                <a class="dropdown-item" href="#">User queries</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Admin Column -->
+                                    <div class="col-md-4">
+                                        <div class="solutions-section">
+                                            <h3>Admin</h3>
+                                            <div class="dropdown-items-wrapper">
+                                                <a class="dropdown-item" href="#">Management</a>
+                                                <a class="dropdown-item" href="#">Use case Configuration</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Get Started</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Pricing</a></li>
+                            <li><a class="dropdown-item" href="#">Money back guarantee</a></li>
+                            <li><a class="dropdown-item" href="#">ROI</a></li>
+                            <li><a class="dropdown-item" href="#">Contact our Expert</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Company</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                            <li><a class="dropdown-item" href="partners.html">Partners</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Mobile Login/Register Buttons -->
+                <div class="mobile-nav-buttons d-lg-none">
+                    <a href="#" class="btn btn-outline-primary">Login</a>
+                    <a href="#" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+
+            <!-- Desktop Login/Register Buttons -->
+            <div class="desktop-nav-buttons d-none d-lg-flex">
+                <a href="#" class="btn btn-outline-primary me-2">Login</a>
+                <a href="#" class="btn btn-primary">Register</a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Healthcare Hero Section -->
+    <section class="healthcare-hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h1 class="display-4 fw-bold mb-4">Transforming Healthcare with AI</h1>
+                    <p class="lead mb-4">Revolutionize patient care and streamline operations with our cutting-edge AI solutions designed specifically for healthcare providers.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+                        <a href="#" class="btn btn-outline-light btn-lg">Watch Demo</a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-image-container">
+                        <img src="assets/images/healthcare03.png" alt="Healthcare Innovation" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="key-features py-5">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h6 class="text-primary fw-bold text-uppercase">Our Solutions</h6>
+                <h2 class="display-5 fw-bold mb-3">Comprehensive Healthcare Solutions</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Feature 1 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon mb-4">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="64" height="64" rx="16" fill="#EEF2FF"/>
+                                <path d="M32 20L44 26V38L32 44L20 38V26L32 20Z" stroke="#2563EB" stroke-width="2"/>
+                                <path d="M32 32L32 44" stroke="#2563EB" stroke-width="2"/>
+                                <path d="M44 26L32 32" stroke="#2563EB" stroke-width="2"/>
+                                <path d="M20 26L32 32" stroke="#2563EB" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="h4 mb-3">Patient Care Automation</h3>
+                        <p class="text-muted">Streamline patient care with AI-powered automation that handles appointments, reminders, and follow-ups.</p>
+                        <ul class="feature-list">
+                            <li><span class="feature-check">✓</span> Smart Appointment Scheduling</li>
+                            <li><span class="feature-check">✓</span> Automated Reminders</li>
+                            <li><span class="feature-check">✓</span> Patient Follow-up System</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon mb-4">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="64" height="64" rx="16" fill="#EEF2FF"/>
+                                <path d="M22 20C22 18.8954 22.8954 18 24 18H40C41.1046 18 42 18.8954 42 20V40C42 41.1046 41.1046 42 40 42H24C22.8954 42 22 41.1046 22 40V20Z" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M32 36V38" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M28 24H36" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="h4 mb-3">Voice AI Solutions</h3>
+                        <p class="text-muted">Enhance patient communication with intelligent voice solutions that understand and respond naturally.</p>
+                        <ul class="feature-list">
+                            <li><span class="feature-check">✓</span> Natural Language Processing</li>
+                            <li><span class="feature-check">✓</span> Voice-based Interactions</li>
+                            <li><span class="feature-check">✓</span> Multilingual Support</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon mb-4">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="64" height="64" rx="16" fill="#EEF2FF"/>
+                                <path d="M20 20C20 18.8954 20.8954 18 22 18H36L44 26V40C44 41.1046 43.1046 42 42 42H22C20.8954 42 20 41.1046 20 40V20Z" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M36 18V26H44" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M24 32H36" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M24 36H32" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="h4 mb-3">Administrative Efficiency</h3>
+                        <p class="text-muted">Optimize administrative tasks with smart automation and intelligent workflow management.</p>
+                        <ul class="feature-list">
+                            <li><span class="feature-check">✓</span> Workflow Automation</li>
+                            <li><span class="feature-check">✓</span> Document Processing</li>
+                            <li><span class="feature-check">✓</span> Resource Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <div class="benefits-content">
+                        <h6 class="text-primary fw-bold text-uppercase">Why Choose Us</h6>
+                        <h2 class="display-5 fw-bold mb-4">Transform Your Healthcare Practice</h2>
+                        <p class="lead mb-4">Our AI solutions help healthcare providers deliver better patient care while reducing operational costs and improving efficiency.</p>
+                        
+                        <div class="benefits-stats d-flex flex-wrap">
+                            <div class="benefit-stat me-5 mb-3">
+                                <h3 class="display-5 fw-bold text-primary">40%</h3>
+                                <p>Reduced Wait Times</p>
+                            </div>
+                            <div class="benefit-stat me-5 mb-3">
+                                <h3 class="display-5 fw-bold text-primary">60%</h3>
+                                <p>Administrative Efficiency</p>
+                            </div>
+                            <div class="benefit-stat mb-3">
+                                <h3 class="display-5 fw-bold text-primary">95%</h3>
+                                <p>Patient Satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="benefits-image position-relative">
+                        <div class="image-container rounded-4 overflow-hidden">
+                            <img src="assets/images/healthcare06.png" alt="Healthcare Benefits" class="img-fluid">
+                        </div>
+                        <div class="stats-card position-absolute bottom-0 end-0 bg-white p-4 rounded-4 shadow-lg">
+                            <div class="d-flex align-items-center">
+                                <div class="stats-icon me-3">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 30L15 20L25 25L35 10" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="5" cy="30" r="3" fill="#2563EB"/>
+                                        <circle cx="15" cy="20" r="3" fill="#2563EB"/>
+                                        <circle cx="25" cy="25" r="3" fill="#2563EB"/>
+                                        <circle cx="35" cy="10" r="3" fill="#2563EB"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Patient Growth</h5>
+                                    <p class="text-success fw-bold mb-0">+85% in 12 months</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="case-studies py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h6 class="text-primary fw-bold text-uppercase">Success Stories</h6>
+                <h2 class="display-5 fw-bold mb-3">Healthcare Transformation Stories</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Case Study 1 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="case-study-card h-100">
+                        <div class="card-image rounded-4 overflow-hidden mb-4">
+                            <img src="assets/images/healthcare01.png" alt="Case Study 1" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="mb-3">Metropolitan Hospital</h4>
+                            <p class="text-muted">Reduced patient wait times by 40% and improved appointment scheduling efficiency using our AI solutions.</p>
+                            <a href="#" class="btn btn-link text-primary p-0">Read More <i class="bi bi-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 2 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="case-study-card h-100">
+                        <div class="card-image rounded-4 overflow-hidden mb-4">
+                            <img src="assets/images/healthcare02.png" alt="Case Study 2" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="mb-3">City Medical Center</h4>
+                            <p class="text-muted">Automated 75% of administrative tasks and improved patient communication with voice AI.</p>
+                            <a href="#" class="btn btn-link text-primary p-0">Read More <i class="bi bi-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 3 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="case-study-card h-100">
+                        <div class="card-image rounded-4 overflow-hidden mb-4">
+                            <img src="assets/images/healthcare04.png" alt="Case Study 3" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="mb-3">Regional Healthcare</h4>
+                            <p class="text-muted">Achieved 95% patient satisfaction rate with intelligent appointment management system.</p>
+                            <a href="#" class="btn btn-link text-primary p-0">Read More <i class="bi bi-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <h2 class="display-5 fw-bold mb-4">Ready to Transform Your Healthcare Practice?</h2>
+                    <p class="lead mb-4">Join hundreds of healthcare providers who have already revolutionized their practice with our AI solutions.</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a href="#" class="btn btn-light btn-lg">Get Started</a>
+                        <a href="#" class="btn btn-outline-light btn-lg">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - Same as index.html -->
+    <footer class="footer bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3" data-aos="fade-right" data-aos-delay="100">
+                    <h5>About codeg.ai</h5>
+                    <p>Transforming businesses with intelligent solutions</p>
+                </div>
+                <div class="col-lg-3" data-aos="fade-right" data-aos-delay="200">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Solutions</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3" data-aos="fade-left" data-aos-delay="200">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: info@codeg.ai</li>
+                        <li>Phone: +1 (555) 123-4567</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3" data-aos="fade-left" data-aos-delay="100">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <!-- Add social media links here -->
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 codeg.ai. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Library for Scroll Animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</body>
+</html> 
